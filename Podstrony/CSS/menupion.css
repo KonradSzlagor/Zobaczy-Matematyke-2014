@@ -1,0 +1,35 @@
+ol, ol li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	width: 200px;
+	padding: 2px 2px 1px 2px;
+	background-color: #9ce;
+	border: 3px double #28e;
+}
+
+ol li {
+	border-bottom: 1px solid #9ce;
+}
+
+ol a:link, ul a:visited {
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: #20r;
+	color: #def;
+	border-left: 10px solid #25b;
+}
+
+ol a:hover {
+	width: 166px;
+	background-color: #28e;
+	color: #fff;
+	border-left: 20px solid #ff00ff;
+}
